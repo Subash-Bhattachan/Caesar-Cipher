@@ -1,0 +1,34 @@
+Subash Bhattachan
+
+Pseudocode
+(p) Choose 1 of the 3 options
+(p)To encode input 'e'
+(p)To decode input 'd'
+(p)To quit input 'q'
+
+(input) selection __
+
+	(if) input 'e'
+		(input) please input a phrase in lowercase letters
+		(input) please input rotation number from 1-25
+			(if) input # 1-25
+				(p) [the encoded phrase/lower case letters]
+			(if) input an incorrect #
+				[reprompt input for rotation #]
+			{it then prompts with initial menu}
+
+
+(if) input 'd'
+	(input) please input encoded phrase
+		(if) phrase able to decode
+			(p) [the decoded phrase and rotation #]
+		(if) no rotation found
+			(p) [Prints message stating it is not possible to decode]
+		[it then prompts with initial menu]
+
+(if) input 'q'
+	(p) [insert nice message]
+	Program Ends
+
+(else)_
+	(print) [Error message + prompts initial menu]
